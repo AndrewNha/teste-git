@@ -1,4 +1,4 @@
-version: "3"
+version: "8.0"
 services: 
   mysql_knex:
     container_name: mysql_knex
@@ -11,7 +11,7 @@ services:
       - --collation-server=utf8mb4_unicode_ci
       - --innodb_force_recovery=0
     volumes: 
-      - ~/.MySQLDBData/mysqlonly/mysql_knex:/var/lib/mysql
+      - C:\Users\Andre\.MySQLDBData\mysqlonly\mysql_knex:/var/lib/mysql
     ports:
       - 3306:3306
     environment:
