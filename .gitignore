@@ -1,2 +1,3 @@
 **/output/
 *.c
+mysql_data/
